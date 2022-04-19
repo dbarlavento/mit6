@@ -16,11 +16,14 @@ resto = 0
 print("1")
 print("2")
 
-for i in range(INICIO, FIM):
-	if i % 2 != 0:
-		n = 3
-		while (i % n != 0) and (n <= i):
-			n += 2
-		if n == i:
-			print(n)
+while i <= FIM:
+	n = INICIO
+
+	while (i % n != 0) and (n <= i):
+		n += 2
+
+	if n == i:
+		print(n)
+
+	i += 2
 
