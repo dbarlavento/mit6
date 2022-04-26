@@ -7,7 +7,7 @@
 #Primeiro número candidato a primo
 INICIO = 3 
 #Último número candidato a primo
-FIM = 1000000
+FIM = 1000
 
 i = INICIO
 resto = 0
