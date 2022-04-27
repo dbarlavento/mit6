@@ -7,23 +7,29 @@
 #Primeiro número candidato a primo
 INICIO = 3 
 #Último número candidato a primo
-FIM = 1000
+FIM = 997
 
-i = INICIO
-resto = 0
+#Contador de primos
+i = 0
+
+#Número candidato
+nc = INICIO
+
+#Divisor
+div = 0
 
 #imprime os dois primeiros
 print("1")
 print("2")
 
 while i <= FIM:
-	n = INICIO
+	div = INICIO
 
-	while (i % n != 0) and (n <= i):
-		n += 2
+	while (nc % div != 0) and (div <= nc):
+		div += 2
 
-	if n == i:
-		print(n)
+	if div == nc:
+		i += 1
+		print(nc)
 
-	i += 2
-
+	nc += 2
