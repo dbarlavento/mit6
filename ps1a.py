@@ -1,7 +1,7 @@
 #!/usr/local/bin/python3
 
 #ps1a.py
-#Calcula os 1000 primeiros números primos
+#Encontra os 1000 primeiros números primos
 
 #Constantes
 #Primeiro número candidato a primo
